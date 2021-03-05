@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM MNP</title>
+
+    <script>
+        function change_text(element) {
+            if (element.innerHTML === 'Puff') {
+                element.innerHTML = 'Jet'
+            } else {
+                element.innerHTML = 'Puff'
+            }
+        }
+    </script>
+
+</head>
+<body>
+<h1 onclick="change_text(this)">Jet</h1>
+</body>
+</html>
